@@ -9,7 +9,7 @@ class Solution {
             freq[nums[i]]++;
         }
 
-        //no of elements lesser 
+        //elements till i:
         for(int i=1;i<101;i++){
             freq[i]+=freq[i-1];
         }
