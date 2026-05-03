@@ -85,4 +85,9 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0005-longest-palindromic-substring) |
+| [0796-rotate-string](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0796-rotate-string) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
