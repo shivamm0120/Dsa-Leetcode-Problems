@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0485-max-consecutive-ones) |
 | [0645-set-mismatch](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0645-set-mismatch) |
+| [0867-transpose-matrix](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0867-transpose-matrix) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1470-shuffle-the-array](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/1470-shuffle-the-array) |
 | [1572-matrix-diagonal-sum](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/1572-matrix-diagonal-sum) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [0867-transpose-matrix](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0867-transpose-matrix) |
 | [1929-concatenation-of-array](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0048-rotate-image) |
+| [0867-transpose-matrix](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/0867-transpose-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/1572-matrix-diagonal-sum) |
 | [1672-richest-customer-wealth](https://github.com/shivamm0120/DSA-Leetcode-Problems/tree/master/1672-richest-customer-wealth) |
 <!---LeetCode Topics End-->
