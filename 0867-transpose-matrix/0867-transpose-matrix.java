@@ -5,8 +5,11 @@ class Solution {
 
         int [][] ans= new int [col][row];
 
+
+        //traverse each element but fill in ans array by interchanging its rows into col to each other 
         for(int i=0;i<row;i++){
             for(int j=0;j<col;j++){
+                
                 ans[j][i]=matrix[i][j];
                
 
