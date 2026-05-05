@@ -17,16 +17,11 @@ class Solution {
             for(i=top;i<=bottom;i++)al.add(matrix[i][right]);
             right--;
             if(top<=bottom){
-                for(i=right;i>=left;i--){
-                    al.add(matrix[bottom][i]);
-                }
+                for(i=right;i>=left;i--) al.add(matrix[bottom][i]);
                 bottom--;
-
             }
             if(left<=right){
-                for(i=bottom;i>=top;i--){
-                    al.add(matrix[i][left]);
-                }
+                for(i=bottom;i>=top;i--) al.add(matrix[i][left]);
                 left++;
             }
 
