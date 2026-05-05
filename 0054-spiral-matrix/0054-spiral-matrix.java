@@ -11,29 +11,26 @@ class Solution {
         int bottom=m-1;
 
         while(top<=bottom && left<=right){
-
-            int i=left;
-            if(top==bottom){
-                al.add(matrix[top][i]);left++;continue;
-                }
-            if(left==right){
-                al.add(matrix[top][left]);
-                top++;continue;
-                }
-            for(;i<right;i++){
-                al.add(matrix[top][i]);
-            }
-            for( i=top;i<bottom;i++){
-                al.add(matrix[i][right]);
-            }
-            for(i=right;i>left;i--) al.add(matrix[bottom][i]);
-            for(i=bottom;i>top;i--)al.add(matrix[i][left]);
-
-            //shrink layers
+            int i;
+            for(i=left;i<=right;i++)al.add(matrix[top][i]);
             top++;
-            bottom--;
-            left++;
+            for(i=top;i<=bottom;i++)al.add(matrix[i][right]);
             right--;
+            if(top<=bottom){
+                for(i=right;i>=left;i--){
+                    al.add(matrix[bottom][i]);
+                }
+                bottom--;
+
+            }
+            if(left<=right){
+                for(i=bottom;i>=top;i--){
+                    al.add(matrix[i][left]);
+                }
+                left++;
+            }
+
+            
         }
         return al;
     }
